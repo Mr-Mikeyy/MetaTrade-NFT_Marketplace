@@ -18,10 +18,11 @@ const Header = () => {
         />
       </Link>
       </div>
+
       <ul 
         className="md:flex-[0.7]
         text-white md:flex
-        hidden list-none flex-row justify-between 
+        list-none flex-row justify-between 
         items-center flex-initial"
       >
         
@@ -57,7 +58,6 @@ const Header = () => {
       )}
         </li>
       </ul>
-
     </nav>
   )
 };
